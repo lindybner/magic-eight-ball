@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Eight Ball</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <main id="main">
+        <header id="header">
+            <h1>Magic Eight Ball: Ask a Question!</h1>
+        </header>
+        <div id="container">
+            <!-- QUESTION SECTION -->
+            <section id="question-area">
+                <form id="magic-eight-ball" method="post" action="./index.html">
+                    <div>
+                        <label for="question" id="question-label">Ask the Magic Eight Ball a (yes or no) question:
+                        </label>
+                    </div>
+                    <div>
+                        <input type="text" name="question" id="question" placeholder="Please enter your question&hellip;"></input>
+                    </div>
+                    <div>
+                        <button type="submit" id="submit">Ask</button>
+                    </div>
+                </form>
+            </section>
+            <!-- ANSWER SECTION -->
+            <section id="answer-area">
+                <!-- EXAMPLE 1 -->
+                <div class="card">
+                    <p>EXAMPLE</p>
+                    <p class="question">Q: Will it rain tomorrow?</p>
+                    <p class="answer">A: Signs point to yes.</p>
+                </div>
+                <!-- EXAMPLE 2 -->
+                <div class="card">
+                    <p>EXAMPLE</p>
+                    <p class="question">Q: Does my cat like me?</p>
+                    <p class="answer">A: Ask again later.</p>
+                </div>
+            </section>
+        </div>
+        <footer id="footer">
+            <!-- COPYRIGHT -->
+            &copy; Jim Lin-Dybner, <span id="year"></span>.
+        </footer>
+    </main>
+</body>
+
+</html>
