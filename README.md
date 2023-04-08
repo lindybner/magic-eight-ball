@@ -1,5 +1,5 @@
 # Magic 8 Ball
-Simple HTML/CSS/JS magic eight ball web app MVP.
+Simple HTML/CSS/JS Magic 8 Ball web app MVP.
 
 Sold mainly as a paperweight, the Magic 8 Ball was created in 1950 and became popular in offices as a fun fortune-telling office toy.
 
