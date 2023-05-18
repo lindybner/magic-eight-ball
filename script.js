@@ -42,12 +42,12 @@ function pageReady() {
   year.innerHTML = date.getFullYear();
 
   // eightBall function
-  function eightBall(event) {
+  function eightBall() {
     // validate question input
     if (!question.value) {
       questionLabel.innerHTML = errorMsg;
       questionLabel.classList.add("red");
-      event.preventDefault();
+      return false;
     } else {
       questionLabel.innerHTML = regularLabel;
       questionLabel.classList.remove("red");
@@ -57,16 +57,20 @@ function pageReady() {
       // generate eightBall response based on answers arr and randomNum
       answer = answers[randomNum];
       // generate next card
-      let newCard = `<div class="card fade-in"><p class="question">Q: ${question.value}</p><p class="answer">A: ${answer}</p></div>`;
+      let newCard =
+        `<div class="card fade-in">
+          <p class="question">Q: ${question.value}</p>
+          <p class="answer">A: ${answer}</p>
+        </div>`;
       answerBoard.innerHTML = newCard + answerBoard.innerHTML;
       // clear quesiton input
       question.value = "";
       // focus on question input
       question.focus();
       // prevent form submit
-      event.preventDefault();
+      return false;
     }
   }
   // event listener - click on button
-  btn.addEventListener("click", eightBall);
+  btn.onclick = eightBall;
 }

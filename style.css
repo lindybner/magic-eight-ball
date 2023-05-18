@@ -126,6 +126,16 @@ button#submit:active {
 .card p.answer {
     font-size: 1.25rem;
 }
+
+a,
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 /* BODY STYLES */
 
 /* ANIMATION */
