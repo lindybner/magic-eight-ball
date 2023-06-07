@@ -65,8 +65,8 @@ function pageReady() {
       // generate next card
       let newCard =
         `<div class="card fade-in">
-          <p class="question">Q: ${question.value}</p>
-          <p class="answer">A: ${answer}</p>
+          <p class="question">${question.value}</p>
+          <p class="answer">${answer}</p>
         </div>`;
       answerBoard.innerHTML = newCard;
       // clear quesiton input
