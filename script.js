@@ -3,6 +3,7 @@ window.onload = pageReady;
 function pageReady() {
   // handles & variables
   let btn = document.querySelector("#submit");
+  let btnReload = document.querySelector("#reload-btn");
   let answerBoard = document.querySelector("#answer-area");
   let question = document.querySelector("#question");
   let questionLabel = document.querySelector("#question-label");
@@ -76,6 +77,13 @@ function pageReady() {
       return false;
     }
   }
-  // event listener - click on button
+  // event listener
+  // click on button
   btn.onclick = eightBall;
+
+  // reload btn
+  btnReload.onclick = () => {
+    location.reload();
+    return false;
+  }
 }
