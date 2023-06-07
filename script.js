@@ -38,8 +38,13 @@ function pageReady() {
   question.focus();
 
   // get year for copyright in footer
-  let date = new Date();
-  year.innerHTML = date.getFullYear();
+  let newDate = new Date();
+  let currentYr = newDate.getFullYear();
+  if (currentYr > 2023) {
+    year.innerHTML = `2023 &ndash; ${currentYr}`;
+  } else {
+    year.innerHTML = currentYr;
+  }
 
   // eightBall function
   function eightBall() {
@@ -62,7 +67,7 @@ function pageReady() {
           <p class="question">Q: ${question.value}</p>
           <p class="answer">A: ${answer}</p>
         </div>`;
-      answerBoard.innerHTML = newCard + answerBoard.innerHTML;
+      answerBoard.innerHTML = newCard;
       // clear quesiton input
       question.value = "";
       // focus on question input

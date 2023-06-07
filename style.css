@@ -45,6 +45,7 @@ p {
     width: 50%;
     min-width: 375px;
     margin: 5rem auto;
+    padding: 0 1rem;
 }
 
 h1 {
@@ -95,10 +96,7 @@ button#submit:active {
     flex-flow: row wrap;
     justify-content: center;
     gap: 1.5rem;
-    border: 1px solid #fff;
-    border-radius: 5px;
     padding: 1rem;
-    height: 28rem;
     overflow: scroll;
 }
 
@@ -108,7 +106,7 @@ button#submit:active {
     justify-content: center;
     width: 11rem;
     height: 11rem;
-    border: 1px solid #fff;
+    border: 5px solid #fff;
     border-radius: 50%;
     padding: 1rem;
     background-color: rgba(0, 0, 0, 0.6);
@@ -141,16 +139,12 @@ a:hover {
 /* ANIMATION */
 .fade-in:first-of-type {
     animation-name: fade-in;
-    animation-duration: 1s;
+    animation-duration: 7s;
     animation-iteration-count: 1;
 }
 
 @keyframes fade-in {
     0% {
-        opacity: 0;
-    }
-
-    50% {
         opacity: 0;
     }
 
