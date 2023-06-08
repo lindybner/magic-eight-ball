@@ -9,7 +9,7 @@ function pageReady() {
   let questionLabel = document.querySelector("#question-label");
   let year = document.querySelector("#year");
   let errorMsg = "Please enter a valid question!";
-  let regularLabel = "Ask the Magic Eight Ball a (yes or no) question:";
+  let regularLabel = "Ask the Magic 8 Ball a (yes or no) question:";
   const answers = [
     "It is certain.",
     "It is decidedly so.",
