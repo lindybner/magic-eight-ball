@@ -66,6 +66,11 @@ function pageReady() {
       // capitalize first letter of question
       question.value = question.value.charAt(0).toUpperCase() + question.value.slice(1);
 
+      // capitalize " i "
+      if (question.value.indexOf(" i ") !== -1) {
+        question.value = question.value.replace(/ i /g, " I ");
+      }
+
       // generate randomNum value
       randomNum = Math.floor(Math.random() * answers.length);
       // generate eightBall response based on answers arr and randomNum
