@@ -1,6 +1,30 @@
-# Magic 8 Ball
-Simple HTML/CSS/JS Magic 8 Ball web app MVP.
+# Magic 8 Ball App
 
-Sold mainly as a paperweight, the Magic 8 Ball was created in 1950 and became popular in offices as a fun fortune-telling office toy.
+Ask the Magic 8 Ball a question and it will tell your fortune! 🎱
 
-This simple web app mimics the Magic 8 Ball and lets users ask simple yes-or-no questions, which prompts the Magic 8 Ball to respond with its answer to the user's question.
+## Table of Contents
+
+- [Description](#description)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Author](#author)
+
+## Description
+
+This web application allows users to ask the Magic 8 Ball any yes or no question and receive an answer. The app is built with HTML, CSS, and JavaScript, and it simulates the experience of the classic Magic 8 Ball toy, which was often used for seeking advice or predicting the future.
+
+## Usage
+
+1. Type your yes or no question in the input field labeled "Ask the Magic 8 Ball a (yes or no) question."
+
+2. Click the "Ask" button to submit your question.
+
+3. The Magic 8 Ball will provide a random answer from its list of responses.
+
+4. If you want to ask another question, click the "Refresh" button to clear the previous answer and question input.
+
+## Author
+
+The Magic 8 Ball app was created by [Jim Lin-Dybner](http://lindybner.com/).
