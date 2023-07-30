@@ -15,7 +15,3 @@ This web application allows users to ask the Magic 8 Ball any yes or no question
 3. The Magic 8 Ball will provide a random answer from its list of responses.
 
 4. If you want to ask another question, click the "Refresh" button to clear the previous answer and question input.
-
-## Author
-
-The Magic 8 Ball app was created by [Jim Lin-Dybner](http://lindybner.com/).
