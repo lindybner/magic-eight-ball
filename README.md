@@ -2,15 +2,6 @@
 
 Ask the Magic 8 Ball a question and it will tell your fortune! 🎱
 
-## Table of Contents
-
-- [Description](#description)
-- [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Author](#author)
-
 ## Description
 
 This web application allows users to ask the Magic 8 Ball any yes or no question and receive an answer. The app is built with HTML, CSS, and JavaScript, and it simulates the experience of the classic Magic 8 Ball toy, which was often used for seeking advice or predicting the future.
